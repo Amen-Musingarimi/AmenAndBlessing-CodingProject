@@ -7,35 +7,52 @@
   </head>
 
   <body>
-
-   <nav id="navbar">
-    <a>Home</a>
-    <a>About</a>
-    <a>Contact us</a>
-   </nav>
+    <nav id="navbar">
+      <a class="home-link" href="#projects">Home</a>
+      <a class="about-link" href="#">About</a>
+      <a class="contact-link" href="projects">Contact us</a>
+    </nav>
 
     <section id="welcome-section">
       <h1>Hey it's Amen and Blessing</h1>
       <p>We are web developers</p>
     </section>
 
-    <section id="projects">
-      <div>
-        <h3 class="project-tile">This is our HTML/CSS projects</h3>
-        <a href="https://github.com/Amen-Musingarimi/AmenAndBlessing-CodingProject" target="_blank" id="profile-link">Click Here</a>
+    <section class="flexbox-container" id="projects">
+      <div class="flexbox-card">
+        <h4 class="project-tile">This is our HTML/CSS projects</h4>
+        <img
+          class="flexbox-images"
+          src="image.jpg"
+          alt="web developer in office"
+        />
+        <a
+          href="https://github.com/Amen-Musingarimi/AmenAndBlessing-CodingProject"
+          target="_blank"
+          id="profile-link"
+          >Click Here</a
+        >
       </div>
-      <div>
-        <h3 class="project-tile">This is where we learn web development</h3>
-        <a href="https://www.microverse.org/" target="_blank" id="profile-link">Click Here</a>
+      <div class="flexbox-card">
+        <h4 class="project-tile">This is where we learn web development</h4>
+        <img class="flexbox-images" src="computer.jpg" alt="computer" />
+        <a href="https://www.microverse.org/" target="_blank" id="profile-link"
+          >Click Here</a
+        >
       </div>
-      <div>
-        <h3 class="project-tile">Here is our codeing chanllenges</h3>
-        <a href="https://www.freecodecamp.org/" target="_blank" id="profile-link">Click Here</a>
+      <div class="flexbox-card">
+        <h4 class="project-tile">Here is our codeing chanllenges</h4>
+        <img class="flexbox-images" src="code.jpg" alt="code" />
+        <a
+          href="https://www.freecodecamp.org/"
+          target="_blank"
+          id="profile-link"
+          >Click Here</a
+        >
       </div>
     </section>
 
     <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
     <script src="js/index.js"></script>
-    
   </body>
 </html>
